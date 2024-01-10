@@ -1,5 +1,5 @@
 import React from 'react'
-import Counter from './Calculator';
+import Calculator from './Calculator';
 const App = () => {
   return (
 <>
