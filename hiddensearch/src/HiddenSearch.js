@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import {FaSearch} from 'react-icons/fa';
+import { FaSearch } from "react-icons/fa";
 import "./style.css";
 
 function HiddenSearch() {
@@ -14,7 +14,7 @@ function HiddenSearch() {
       setBgColor("#fff");
     }
   };
-   return (
+  return (
     <section
       className="container"
       style={{ backgroundColor: bgColor }}
@@ -28,6 +28,5 @@ function HiddenSearch() {
     </section>
   );
 }
-
 
 export default HiddenSearch;
