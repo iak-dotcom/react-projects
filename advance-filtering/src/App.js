@@ -1,9 +1,14 @@
 import React from 'react'
+import Navigation from './Navigation/Nav'
+import Products from './Products/Products';
+import Recommended from './Recommended/Recommended';
 
 const App = () => {
   return (
 <>
-<h1>Hello World</h1>
+<Navigation/>
+<Products/>
+<Recommended/>
 </>
   );
 };
